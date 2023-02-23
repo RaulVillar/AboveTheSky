@@ -5,7 +5,10 @@
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@fontsource/poppins": "^4.5.10",
+    "@mui/base": "^5.0.0-alpha.118",
     "@mui/icons-material": "^5.11.9",
+    "@mui/joy": "^5.0.0-alpha.68",
     "@mui/material": "^5.11.10",
     "@mui/styled-engine-sc": "^5.11.9",
     "@testing-library/jest-dom": "^5.16.5",
@@ -26,7 +29,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "axios": "json-server --watch src/assets/data/stars.json --port 5000"
+    "axios": "json-server --watch src/Products/Products.json --port 5000"
   },
   "eslintConfig": {
     "extends": [
@@ -47,6 +50,10 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
     "jest": "^27.5.1"
+=======
+    "web-vitals": "^3.1.1"
+>>>>>>> c0ba5a9476f32e49f902b9a6dd86c037b99914b6
   }
 }

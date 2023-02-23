@@ -1,20 +1,27 @@
-import React from 'react';
+
 import axios from 'axios';
 
-function CallAxios() {
+const CallAxios = () => {
+  
+    const url = "http://localhost:5000"
 
-    const url = "http://localhost:5000/stars"
-    const get = async () => {
-        const res = await axios.get(url);
-        console.log(res)
-        return res;
-        
+    
+    const getStars = async () => {
+        const res = await axios.get(`${url}/stars`);
+        return res; 
     };
 
-    return (
-        get,
+     
+    const getConstellations = async () => {
+        const res = await axios.get(`${url}/constellations`);
+        return res; 
+    };
+
+    return {
+        getStars,
+        getConstellations,
         url
-    )
+    };
 }
 
 export default CallAxios
