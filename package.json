@@ -50,10 +50,6 @@
     ]
   },
   "devDependencies": {
-<<<<<<< HEAD
     "jest": "^27.5.1"
-=======
-    "web-vitals": "^3.1.1"
->>>>>>> c0ba5a9476f32e49f902b9a6dd86c037b99914b6
   }
 }
