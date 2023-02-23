@@ -37,9 +37,9 @@ export default function HomePage() {
         <h2 style={{ color: "white"}}>Ver más</h2>
       </div>
       
-      <Grid container spacing={2} columns={16}  sx={{mx:5}} >
+      <Grid direction="row" container spacing={1}   sx={{mt:2}} >
         {stars.map(item => (
-          <Grid sx={{mt:4}} key={item.id}>
+          <Grid sx={{mt:2}} key={item.id}>
             <HomeCards 
               Image={item.image}
               Title={item.name}
